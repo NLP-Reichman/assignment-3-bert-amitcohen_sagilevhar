@@ -1,0 +1,54 @@
+{
+  "tests": [
+    {
+      "name": "test_link",
+      "setup": "",
+      "run": "python3 auto_grader.py test_link",
+      "input": "test_link",
+      "output": "1",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 5
+    },
+    {
+      "name": "test_read_data",
+      "setup": "",
+      "run": "python3 auto_grader.py test_read_data",
+      "input": "test_read_data",
+      "output": "1",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "test_prepare_data",
+      "setup": "",
+      "run": "python3 auto_grader.py test_prepare_data",
+      "input": "test_prepare_data",
+      "output": "1",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 20
+    },
+    {
+      "name": "test_model_partial",
+      "setup": "",
+      "run": "python3 auto_grader.py test_model_partial",
+      "input": "test_model_partial",
+      "output": "1",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 30
+    },
+    {
+      "name": "test_model",
+      "setup": "",
+      "run": "python3 auto_grader.py test_model",
+      "input": "test_model",
+      "output": "1",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 35
+    }
+  ]
+}
